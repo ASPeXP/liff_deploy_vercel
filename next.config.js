@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+module.exports = {
+  images: {
+    domains: ['profile.line-scdn.net'],
+  },
+  reactStrictMode: false,
+  
 }
 
-module.exports = nextConfig
+
